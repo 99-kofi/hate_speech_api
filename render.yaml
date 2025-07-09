@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hate-speech-api
+    env: python
+    buildCommand: ""
+    startCommand: ./start.sh
+    plan: free
+    envVars:
+      - key: PORT
+        value: 10000
