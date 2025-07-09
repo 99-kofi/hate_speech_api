@@ -7,8 +7,7 @@ from transformers import DistilBertTokenizer, DistilBertModel
 import torch.nn as nn
 
 # ===== Download Model If Not Exists =====
-MODEL_URL = "https://drive.google.com/uc?export=download&id=14ii_QL1JoWMXQ3MvXszoTmCYbUYfQwRf
-"  # 👈 REPLACE THIS
+MODEL_URL = "https://drive.google.com/uc?export=download&id=14ii_QL1JoWMXQ3MvXszoTmCYbUYfQwRf"  # 👈 REPLACE THIS
 MODEL_PATH = "obala_lang_model.pt"
 
 if not os.path.exists(MODEL_PATH):
